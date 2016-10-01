@@ -23,8 +23,8 @@ and open the template in the editor.
 //        $cinfo->setId(1);
 //        $cinfo->setNome("Informática");
 //        $cinfo->setCoordenador($info);
-//        $conn= new Conexao();
-//        $conn->testar();
+        $conn= new Conexao();
+        $conn->testar();
         $coordenador = new Coordenador();
         $coordenador->setNome("Lucas");
         $coordenadorDAO = new CoordenadorDAO($coordenador);

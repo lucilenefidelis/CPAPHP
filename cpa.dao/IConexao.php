@@ -1,7 +1,7 @@
 <?php
 
-interface IConexao {
-    const HOST= "10.10.117.50";
+    interface IConexao {
+    const HOST= "10.10.117.28";
     const USUARIO ="cpa";
     const BASE = "cpa";
     const SENHA = "cpa";
